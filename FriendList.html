@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship Zone - Friend List</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: auto;
+            color: #333;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: rgb(37, 80, 188);
+            background-color:#3498db ;
+            
+        }
+
+        .centered {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            }
+
+
+        nav {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section h2 {
+            color: #2c3e50;
+        }
+
+        table {
+            width: auto;
+            border-collapse: collapse;
+            
+        }
+
+        td .profile-icon {
+            width: 30px;
+            height: 30px;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        th, td {
+            border: 1px solid #1b1818;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        section a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        footer {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src=Friends.PNG  height="200" width="500" >
+        <div class="centered">Friendship Zone - FriendList</div>
+      </div>
+
+    <nav>
+        <a href="Homepage.html">Home</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="RegistrationForm.html">Register to get added to the list</a>
+    </nav>
+
+    <section>
+        <h2>People at Friendship Zone</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Send Request</th>
+                    <th>Profile</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>Thala</td>
+                    <td>thala.7@example.com</td>
+                    <td><button>add friend</button></td>
+                    <td><a href="https://en.wikipedia.org/wiki/MS_Dhoni"><div class="profile-icon">T</div></a></td>
+                </tr>
+                <tr>
+                    <td>ishowspeed</td>
+                    <td>ishowmeat.6969@gmail.com</td>
+                    <td><button>add friend</button></td>
+                    <td><a href="https://en.wikipedia.org/wiki/IShowSpeed"><div class="profile-icon">S</div></a></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy 2023 Friendship Zone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
